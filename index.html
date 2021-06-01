@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/Main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/reponsive.css">
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+    <title>PODFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">PODFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Entretenimento</a>
+                <a href="#">Finanças | Política | Desenvolvimento Pessoal</a>
+                <a href="#">Idiomas</a>
+                <a href="#">Informativos</a>
+                <a href="#">Saúde</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="podcast-principal">
+            <div class="container">
+                <h3 class="titulo">TIM FERRISS SHOW</h3>
+                <br class="descricao"> Tim Ferriss is a self-experimenter and bestselling author, best known for The 4-Hour Workweek, which has been translated into 40+ languages.
+                    <p>Newsweek calls him "the world's best human guinea pig," and The New York Times calls him "a cross between Jack Welch and a Buddhist monk."</p>
+<br> In this show, he deconstructs world-class performers from eclectic areas (investing, chess, pro sports, etc.), digging deep to find the tools, tactics, and tricks that listeners can use.</br>
+                </p>
+                <div class="botoes">
+                    <button  role="button" onclick="ouvir()" class="botao"> <i class="far fa-play-circle"> </i> OUVIR AGORA 
+                    </button>
+                    <button role="button"  onclick="info()" class="botao"> <i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES</button>
+                    </div>
+            </div>  
+        </div>
+    </main>
+    <div class="classificacao">
+    <h4 class="option1">Entretenimento</h4>
+    <div class="carrosel-podcast">
+    <div class="owl-carousel owl-theme">
+                     
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/nerdcast.jpg" alt="Nerdcast" srcset="" onclick="nerdcast()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/Flow.jpg" alt="Flow" srcset="" onclick="flow()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/lez.png" alt="Só ouço falar" srcset="" onclick="lez()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/podpah.png" alt="Podpah" srcset="" onclick="podpah()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/pretinho.jpg" alt="Pretinho" srcset="" onclick="pretinho()"> 
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/achismo.jpg" alt="Achismo" srcset="" onclick="achismo()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/euficoloko.jpg" alt="Eu fico loko" srcset="" onclick="euficoloko()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Entretenimento/mini.jpg" alt="Mini" srcset="" onclick="mini()">
+        </div>
+        
+    </div>
+
+    </div>
+</div>
+
+<div class="classificacao">
+    <h4 class="option1">Finanças, Política & Desenvolvimento Pessoal</h4>
+    <div class="carrosel-podcast">
+    <div class="owl-carousel owl-theme">
+                     
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/cafe-da-manha.jpg" alt="" srcset="" onclick="cafe()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/cafecomadm.jfif" alt="" srcset=""onclick="adm()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/durma-com-essa.png" alt="" srcset="" onclick="durma()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/Ferrisshow.jpeg" alt="" srcset="" onclick="ferriss()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/jj-podcast.jfif" alt="" srcset="" onclick="jj()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/poupecast.jfif" alt="" srcset="" onclick="poupe()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/Primocast.jpg" alt="" srcset="" onclick="primo()">
+        </div>
+        <div class="item">
+            <img class="box-podcast" src="img/Financas&politica/Valor.png" alt="" srcset="" onclick="valor()">
+        </div>
+        
+    </div>
+    </div>
+    </div>
+
+    <div class="classificacao">
+        <h4 class="option1">Informação</h4>
+        <div class="carrosel-podcast">
+        <div class="owl-carousel owl-theme">
+                         
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/bbc.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/braincast.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/Diretoaoponto.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/oassunto.jfif" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/resumao.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/saude sem tabu.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/Informativos/tr.png" alt="" srcset="">
+            </div>       
+        </div>
+        </div>
+        </div>
+
+        <div class="classificacao">
+            <h4 class="option1">Saúde</h4>
+            <div class="carrosel-podcast">
+            <div class="owl-carousel owl-theme">
+                             
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/cafepsi.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/detetives-da-saude.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/drauziocast.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/headspace.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/ironberg.jfif" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/nozdanutri.jfif" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/positivamente.jpg" alt="" srcset="">
+                </div>  
+                <div class="item">
+                    <img class="box-podcast" src="img/saude/zencast.jpg" alt="" srcset="">
+                </div>      
+            </div>
+            </div>
+            </div>
+
+</div>
+    <script src="https://kit.fontawesome.com/90dc8c0810.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+    <script src="js/Owl/main.js"></script>
+</body>
+</html>
