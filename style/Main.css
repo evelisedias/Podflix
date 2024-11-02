@@ -96,15 +96,14 @@ header nav a:hover{
 .container{
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .podcast-principal .container{
     width: 70%;
 }
-/*Ctg podcast*/
 .box-podcast{
-    
+
   align-items: center;
 }
 
@@ -113,8 +112,8 @@ header nav a:hover{
 }
 
 .classificacao{
-    margin-top: 3rem;
-    background: linear-gradient(black,grey,white)100%;
+    margin-top: 4rem;
+    background: linear-gradient(black,grey,white)
 }
 
 .option1{
@@ -125,3 +124,23 @@ header nav a:hover{
     color: white
     
 }
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;           
+    height: 50px;          
+    border-radius: 50%;    
+    display: block;
+    z-index: 1000;
+    font-size: 24px;       
+    padding: 0;            
+    transition: all 0.3s ease;  
+}
+
+#scrollToTopBtn:hover {
+    background-color: #16fad5;
+    transform: scale(1.1);     
+}
+
