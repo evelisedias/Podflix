@@ -19,7 +19,7 @@ O objetivo do PODFLIX é proporcionar aos usuários uma maneira intuitiva e agra
 - HTML
 - CSS
 - JavaScript
-- [Framework CSS Utilizado] (se houver)
+- BootStrap
   
 ## Como Executar o Projeto
 
