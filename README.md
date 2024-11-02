@@ -14,13 +14,6 @@ O objetivo do PODFLIX é proporcionar aos usuários uma maneira intuitiva e agra
 - **Descubra Novos Podcasts**: Explore diferentes categorias e encontre novos conteúdos.
 - **Reproduza Podcasts**: Ouça seus episódios favoritos diretamente na plataforma.
 
-## Assista ao vídeo
-
-<video width="600" height="400" controls style="border: 2px solid #000; border-radius: 8px;">
-  <source src="img/podflix.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
-
 ## Tecnologias Utilizadas
 
 - HTML
